@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title">Bonvita Canada - Home Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="announcement">
+                <span class="dot" aria-hidden="true"></span>
+                <span data-i18n="topbar.announcement">Online ordering is coming soon — contact our team to set up a dealer account.</span>
+            </div>
+            <div class="top-bar-right">
+                <div class="lang-switch" role="group" aria-label="Language / Langue">
+                    <button class="lang-btn" data-lang="en" type="button">EN</button>
+                    <button class="lang-btn" data-lang="fr" type="button">FR</button>
+                </div>
+                <div class="top-contact">
+                    <span><span aria-hidden="true">📞</span> <span data-i18n="topbar.call">Call:</span></span>
+                    <a href="mailto:"><span aria-hidden="true">✉</span> <span data-i18n="topbar.email">Email us</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="images/logo8.png" alt="Bonvita" class="logo-img">
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-burger" data-i18n-aria="nav.menu" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#products" data-i18n="nav.finishes">Products</a>
+                <a href="#how-it-works" data-i18n="nav.howto">How to Purchase</a>
+                <a href="#about" data-i18n="nav.about">About Us</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <a href="#contact" class="btn-dealer btn-dealer--mobile" data-i18n="nav.becomeDealer">Become a Dealer</a>
+            </nav>
+
+            <a href="#contact" class="btn-dealer" data-i18n="nav.becomeDealer">Become a Dealer</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero-section">
+            <div class="hero-bg" style="background-image: url('images/background.jpg');" aria-hidden="true"></div>
+            <div class="container hero-content-wrap">
+                <div class="hero-panel">
+                    <p class="eyebrow" data-i18n="hero.eyebrow">Home Solutions · Canada</p>
+                    <h1 data-i18n="hero.title">Home Solutions Built Right.<br>Delivered Fast.</h1>
+                    <p class="hero-sub" data-i18n="hero.sub">Easy-to-assemble home solutions — from premium plywood cabinetry to 
+                        complete interior products. Backed by a 10-year warranty, competitive pricing, flexible fulfillment, and dispatch in days from a team with 15+ years serving Canadian dealers.</p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn-primary" data-i18n="hero.ctaPrimary">View Our Products</a>
+                        <a href="#how-it-works" class="btn-ghost" data-i18n="hero.ctaGhost">How to Purchase →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="assembly-section" id="assembly">
+            <div class="container assembly-grid">
+                <div class="assembly-visual" aria-hidden="true">
+                    <svg class="assembly-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="a-part a-back" x="70" y="40" width="200" height="200" rx="3"/>
+                        <rect class="a-part a-side-l" x="30" y="40" width="26" height="200" rx="3"/>
+                        <rect class="a-part a-side-r" x="284" y="40" width="26" height="200" rx="3"/>
+                        <rect class="a-part a-bottom" x="70" y="222" width="200" height="18" rx="2"/>
+                        <rect class="a-part a-shelf" x="70" y="130" width="200" height="10" rx="2"/>
+                        <rect class="a-part a-door" x="70" y="40" width="97" height="200" rx="2"/>
+                        <rect class="a-part a-door" x="173" y="40" width="97" height="200" rx="2"/>
+                    </svg>
+                </div>
+                <div class="assembly-text">
+                    <p class="eyebrow" data-i18n="assembly.eyebrow">Precision Engineering</p>
+                    <h2 class="section-title section-title--left" data-i18n="assembly.title">Every box, built with exact consistency</h2>
+                    <p data-i18n="assembly.sub">Features solid multi-layer wood sides, back, and shelves, pre-drilled for fast job-site assembly. Whether it arrives flat-pack or fully built, every cabinet follows identical manufacturing blueprints — ensuring what your client sees in the showroom is exactly what arrives on site.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <p class="eyebrow eyebrow--center" data-i18n="features.eyebrow">The Bonvita Standard</p>
+                <h2 class="section-title" data-i18n="features.title">What You Get with Every Order</h2>
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none"><path d="M6 12 L20 6 L34 12 L20 18 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 12 V28 L20 34 V18" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M34 12 V28 L20 34" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                        </div>
+                        <h3 data-i18n="features.wood.title">Solid Wood & Premium Construction</h3>
+                        <p data-i18n="features.wood.desc">Built with durable multi-layer wood panels—no cheap particleboard. Every finish and profile maintains exact consistency across orders for long-lasting reliability.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.05s">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2"/><path d="M20 11 V20 L27 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                        </div>
+                        <h3 data-i18n="features.dispatch.title">Rapid 2–5 Day Dispatch</h3>
+                        <p data-i18n="features.dispatch.desc">Standard finishes ship directly from our Canadian warehouse in two to five business days, keeping your job-site schedules on track.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.1s">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none"><path d="M6 14 H30 M24 8 L30 14 L24 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 26 H10 M16 32 L10 26 L16 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <h3 data-i18n="features.fulfillment.title">Easy Assembly & Flexible Delivery</h3>
+                        <p data-i18n="features.fulfillment.desc">Designed for fast, effortless assembly to save on-site labor. Choose flat-pack or pre-assembled formats with direct freight delivery.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.15s">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none"><path d="M6 6 H20 L34 20 L20 34 L6 20 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="14" cy="14" r="2.5" fill="currentColor"/></svg>
+                        </div>
+                        <h3 data-i18n="features.pricing.title">Transparent & Competitive Margins</h3>
+                        <p data-i18n="features.pricing.desc">Straightforward pricing with zero hidden fees or minimums, tailored to maximize dealer profits across all home solution lines.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.2s">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="6" width="24" height="28" rx="2" stroke="currentColor" stroke-width="2"/><path d="M13 14 H27 M13 20 H27 M13 26 H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                        </div>
+                        <h3 data-i18n="features.warranty.title">10-Year Warranty & 15+ Years Expertise</h3>
+                        <p data-i18n="features.warranty.desc">Backed by a decade of structural coverage and a dedicated support team with 15+ years serving Canadian partners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section" id="stats">
+            <div class="container stats-grid">
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span>
+                    <span class="stat-label" data-i18n="stats.warranty">Years Guaranteed Protection</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="15" data-suffix="+">0</span>
+                    <span class="stat-label" data-i18n="stats.experience">Years Partnering with Canadian Dealers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5" data-prefix="2–">0</span>
+                    <span class="stat-label" data-i18n="stats.dispatch">Business Days Express Dispatch</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="100" data-suffix="%">0</span>
+                    <span class="stat-label" data-i18n="stats.wood">Solid Wood Core Construction</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <p class="eyebrow eyebrow--center" data-i18n="products.eyebrow">What We Supply</p>
+                <h2 class="section-title section-title--big" data-i18n="products.title">Our Products</h2>
+
+                <div class="products-grid">
+                    <!-- Cabinets -->
+                    <a href="cabinets.html" class="product-card reveal">
+                        <div class="product-thumb">
+                            <img src="images/cabinet-thumb.jpg" alt="Wholesale Cabinets" class="product-img">
+                        </div>
+                        <h4 data-i18n="products.cabinets.name">Cabinets</h4>
+                        <p class="product-meta" data-i18n="products.cabinets.teaser">Solid wood core cabinet boxes in a range of door finishes and profiles.</p>
+                        <span class="product-link" data-i18n="products.viewMore">View Catalog &rarr;</span>
+                    </a>
+
+                    <!-- Countertops -->
+                    <a href="countertops.html" class="product-card reveal" style="transition-delay:0.05s">
+                        <div class="product-thumb">
+                            <img src="images/countertop-thumb.jpg" alt="Wholesale Countertops" class="product-img">
+                        </div>
+                        <h4 data-i18n="products.countertops.name">Countertops</h4>
+                        <p class="product-meta" data-i18n="products.countertops.teaser">Laminate and solid-surface options engineered for heavy commercial use.</p>
+                        <span class="product-link" data-i18n="products.viewMore">View Catalog &rarr;</span>
+                    </a>
+
+                    <!-- Sinks -->
+                    <a href="sinks.html" class="product-card reveal" style="transition-delay:0.1s">
+                        <div class="product-thumb">
+                            <img src="images/sink-thumb.jpg" alt="Wholesale Sinks" class="product-img">
+                        </div>
+                        <h4 data-i18n="products.sinks.name">Sinks</h4>
+                        <p class="product-meta" data-i18n="products.sinks.teaser">Undermount and drop-in stainless steel options matched to cabinet specs.</p>
+                        <span class="product-link" data-i18n="products.viewMore">View Catalog &rarr;</span>
+                    </a>
+
+                    <!-- Hardware -->
+                    <a href="hardware.html" class="product-card reveal" style="transition-delay:0.15s">
+                        <div class="product-thumb">
+                            <img src="images/hardware-thumb.jpg" alt="Cabinet Hardware" class="product-img">
+                        </div>
+                        <h4 data-i18n="products.hardware.name">Hardware</h4>
+                        <p class="product-meta" data-i18n="products.hardware.teaser">Soft-close hinges, heavy-duty slides, and handles to complete every install.</p>
+                        <span class="product-link" data-i18n="products.viewMore">View Catalog &rarr;</span>
+                    </a>
+
+                    <!-- Coming Soon Product 1 -->
+                    <div class="product-card product-card--disabled">
+                        <div class="product-image-wrap">
+                            <img src="images/products/coming-soon-1.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 data-i18n="products.cs1.title">NAME</h3>
+                            <p data-i18n="products.cs1.desc">DESCRIPTION</p>
+                            <span class="product-status" data-i18n="products.status.upcoming">Expected Q1 2027</span>
+                        </div>
+                    </div>
+
+                    <!-- Coming Soon Product 2 -->
+                    <div class="product-card product-card--disabled">
+                        <div class="product-image-wrap">
+                            <img src="images/products/coming-soon-2.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 data-i18n="products.cs2.title">NAME</h3>
+                            <p data-i18n="products.cs2.desc">DESCRIPTION</p>
+                            <span class="product-status" data-i18n="products.status.upcoming">Expected Q1 2027</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <p class="eyebrow eyebrow--center" data-i18n="gallery.eyebrow">Gallery</p>
+                <h2 class="section-title" data-i18n="gallery.title">See it in real spaces</h2>
+        
+                <div class="gallery-grid">
+                    <div class="gallery-tile reveal" onclick="openLightbox('images/gallery-1.jpg')">
+                        <img src="images/gallery-1.jpg" alt="Gallery Image 1">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.05s" onclick="openLightbox('images/gallery-2.jpg')">
+                        <img src="images/gallery-2.jpg" alt="Gallery Image 2">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.1s" onclick="openLightbox('images/gallery-3.jpg')">
+                        <img src="images/gallery-3.jpg" alt="Gallery Image 3">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.15s" onclick="openLightbox('images/gallery-4.jpg')">
+                        <img src="images/gallery-4.jpg" alt="Gallery Image 4">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.2s" onclick="openLightbox('images/gallery-5.jpg')">
+                        <img src="images/gallery-5.jpg" alt="Gallery Image 5">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.25s" onclick="openLightbox('images/gallery-6.jpg')">
+                        <img src="images/gallery-6.jpg" alt="Gallery Image 6">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.3s" onclick="openLightbox('images/gallery-7.jpg')">
+                        <img src="images/gallery-7.jpg" alt="Gallery Image 7">
+                    </div>
+                    <div class="gallery-tile reveal" style="transition-delay:0.35s" onclick="openLightbox('images/gallery-8.jpg')">
+                        <img src="images/gallery-8.jpg" alt="Gallery Image 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX MODAL FOR GALLERY -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-img" class="lightbox-content" src="" alt="Enlarged view">
+        </div>
+
+        <section id="catalogue" class="catalogue-section">
+            <div class="container catalogue-inner">
+                <div>
+                    <p class="eyebrow" data-i18n="catalogue.eyebrow">Resources</p>
+                    <h2 class="section-title section-title--left" data-i18n="catalogue.title">Catalogue</h2>
+                    <p data-i18n="catalogue.sub">Download our full catalogue.</p>
+                </div>
+                <button class="btn-primary btn-disabled" type="button" disabled data-i18n="catalogue.button">Coming Soon</button>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="steps-section">
+            <div class="container">
+                <p class="eyebrow eyebrow--center" data-i18n="steps.eyebrow">Getting Started</p>
+                <h2 class="section-title" data-i18n="steps.title">How to purchase</h2>
+                <div class="steps-grid">
+                    <div class="step-card reveal">
+                        <span class="step-number" data-i18n="steps.s1.num">01 — Register</span>
+                        <h3 data-i18n="steps.s1.title">Register your account</h3>
+                        <p data-i18n="steps.s1.desc">Submit your dealer registration so our team can confirm wholesale pricing for your business.</p>
+                    </div>
+                    <div class="step-card reveal" style="transition-delay:0.08s">
+                        <span class="step-number" data-i18n="steps.s2.num">02 — Select</span>
+                        <h3 data-i18n="steps.s2.title">Choose your products</h3>
+                        <p data-i18n="steps.s2.desc">Pick from our cabinets, countertops, sinks and hardware to fit your line card.</p>
+                    </div>
+                    <div class="step-card reveal" style="transition-delay:0.16s">
+                        <span class="step-number" data-i18n="steps.s3.num">03 — Order</span>
+                        <h3 data-i18n="steps.s3.title">Place your order</h3>
+                        <p data-i18n="steps.s3.desc">Confirm dimensions with our sales team and place your order directly with us.</p>
+                    </div>
+                </div>
+                <div class="steps-cta">
+                    <a href="#contact" class="btn-primary" data-i18n="steps.cta">Start Dealer Registration</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow" data-i18n="about.eyebrow">About Bonvita</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section-title section-title--left" data-i18n="about.title">Built for Performance. Partnered for Success Across Canada.</h2>
+                        <p data-i18n="about.p1">Bonvita Home Solutions specializes in premium cabinetry, countertops, sinks, and hardware engineered for structural integrity and modern architectural spaces. Built on exact manufacturing standards, our storage and surface solutions balance refined aesthetics with long-term performance across commercial and residential projects nationwide.</p>
+                        <p data-i18n="about.p2">Driven by trade growth and operational efficiency, we support Canadian partners with transparent margins, detailed spec guidance, and flexible fulfillment. With Canadian warehouse inventory and 2–5 day express dispatch, we deliver the consistency, speed, and reliability your projects require.</p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value1.label">Quality & Durability</span>
+                            <p data-i18n="about.value1.value">Full plywood core, 10-year warranty</p>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value2.label">Design & Aesthetics</span>
+                            <p data-i18n="about.value2.value">Modern profiles & versatile finishes</p>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value3.label">Canada-Wide Speed</span>
+                            <p data-i18n="about.value3.value">2–5 day express dispatch nationwide</p>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value4.label">Transparent Margins</span>
+                            <p data-i18n="about.value4.value">Competitive wholesale pricing structure</p>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value5.label">Tailored Assembly</span>
+                            <p data-i18n="about.value5.value">Easy-to-assemble flat-pack or pre-assembled options</p>
+                        </div>
+                        <div class="about-card">
+                            <span class="about-card-tag" data-i18n="about.value6.label">Hands-on Support</span>
+                            <p data-i18n="about.value6.value">Direct guidance & spec sheet support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <div class="container">
+                
+                <div class="section-header">
+                <p class="eyebrow" data-i18n="news.eyebrow">Latest News</p>
+                <h2 class="section-title" data-i18n="news.title">News & Updates</h2>
+                </div>
+
+                <!-- Horizontal Scroll Wrapper -->
+                <div class="news-carousel-wrap">
+                    <div class="news-carousel">
+
+                        <!-- News Item 1 -->
+                        <article class="news-item-card">
+                        <div class="news-thumb">
+                            <img src="images/news-1.jpg" alt="">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-date">DATE</span>
+                            <h3 data-i18n="news.item1.title">TITLE</h3>
+                            <p class="news-excerpt" data-i18n="news.item1.desc">DESCRIPTION...</p>
+                            <button class="btn-news-more" onclick="openNewsModal('item1')" data-i18n="news.learnMore">Read More →</button>
+                        </div>
+                        </article>
+
+                        <!-- News Item 2 -->
+                        <article class="news-item-card">
+                        <div class="news-thumb">
+                            <img src="images/news-2.jpg" alt="">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-date">DATE</span>
+                            <h3 data-i18n="news.item2.title">TITLE</h3>
+                            <p class="news-excerpt" data-i18n="news.item2.desc">DESCRIPTION...</p>
+                            <button class="btn-news-more" onclick="openNewsModal('item2')" data-i18n="news.learnMore">Read More →</button>
+                        </div>
+                        </article>
+
+                        <!-- News Item 3 -->
+                        <article class="news-item-card">
+                        <div class="news-thumb">
+                            <img src="images/news-3.jpg" alt="">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-date">DATE</span>
+                            <h3 data-i18n="news.item3.title">TITLE</h3>
+                            <p class="news-excerpt" data-i18n="news.item3.desc">DESCRIPTION...</p>
+                            <button class="btn-news-more" onclick="openNewsModal('item3')" data-i18n="news.learnMore">Read More →</button>
+                        </div>
+                        </article>
+
+                        <!-- News Item 4 -->
+                        <article class="news-item-card">
+                        <div class="news-thumb">
+                            <img src="images/news-4.jpg" alt="">
+                        </div>
+                        <div class="news-body">
+                            <span class="news-date">DATE</span>
+                            <h3 data-i18n="news.item4.title">TITLE</h3>
+                            <p class="news-excerpt" data-i18n="news.item4.desc">DESCRIPTION...</p>
+                            <button class="btn-news-more" onclick="openNewsModal('item4')" data-i18n="news.learnMore">Read More →</button>
+                        </div>
+                        </article>
+
+                        <!-- Add future news cards here; they will automatically scroll horizontally -->
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Full Text News Modal -->
+        <div id="news-modal" class="modal" hidden>
+            <div class="modal-backdrop" onclick="closeNewsModal()"></div>
+            <div class="product-modal-panel">
+                <button class="modal-close" onclick="closeNewsModal()">&times;</button>
+                <img id="news-modal-img" src="" alt="">
+                <h3 id="news-modal-title"></h3>
+                <p id="news-modal-desc"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="product-modal" id="product-modal" hidden role="dialog" aria-modal="true">
+        <div class="product-modal-backdrop" data-modal-close></div>
+        <div class="product-modal-panel">
+            <button class="product-modal-close" type="button" data-modal-close data-i18n="products.modalClose" aria-label="Close">Close</button>
+            <div class="product-modal-thumb" id="modal-thumb">
+                <span class="product-thumb-note" data-i18n="products.photosSoon">Photos coming soon</span>
+            </div>
+            <h3 id="modal-name"></h3>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow eyebrow--center" data-i18n="faq.eyebrow">Got Questions?</p>
+                <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-accordion">
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q1.title">How fast do orders ship?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q1.desc">Standard products and cabinetry dispatch from our Canadian warehouse within 2 to 5 business days.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q2.title">Are products shipped flat-pack or assembled?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q2.desc">We offer flexible fulfillment options. You can order easy-to-assemble flat-pack boxes to save on shipping and storage, or fully pre-assembled cabinetry ready for immediate installation.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q3.title">What materials are used in your cabinetry?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q3.desc">Our cabinetry features multi-layer solid plywood core construction with zero cheap particleboard or filler materials, ensuring long-term structural durability.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q4.title">What does the 10-year warranty cover?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q4.desc">Our 10-year warranty covers structural integrity, manufacturing defects, and hardware performance under normal commercial or residential use.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q5.title">Do you deliver across Canada?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q5.desc">Yes, we arrange direct freight delivery and job-site fulfillment for dealer and contractor partners across Canada.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq.q6.title">How do I become a dealer or get wholesale pricing?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.q6.desc">You can reach out directly via our contact form or call our team. We provide spec sheets, catalog access, and transparent pricing structures for registered trade partners.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <p class="logo footer-logo"><img src="images/logo8.png" alt="Bonvita" class="logo-img logo-img--footer"></p>
+                    <p data-i18n="footer.tagline">Wholesale cabinetry, countertops, sinks and hardware.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="nav.becomeDealer">Become a Dealer</h4>
+                    <p><a href="tel:" data-i18n="footer.phone">📞 Phone: add number</a></p>
+                    <p><a href="mailto:" data-i18n="footer.email">✉ Email: add address</a></p>
+                    <p data-i18n="footer.country">Canada</p>
+                </div>
+                <div class="footer-explore">
+                    <h4 data-i18n="footer.explore">Explore</h4>
+                    <p><a href="#gallery" data-i18n="gallery.eyebrow">Gallery</a></p>
+                    <p><a href="#catalogue" data-i18n="catalogue.eyebrow">Resources</a></p>
+                    <p><a href="#news" data-i18n="news.eyebrow">Latest News</a></p>
+                    <p><a href="#disclaimer" data-i18n="disclaimer.title">Disclaimer</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="disclaimer" class="footer-disclaimer">
+                    <strong data-i18n="disclaimer.title">Disclaimer:</strong>
+                    <span data-i18n="disclaimer.text">Product specifications, finishes and pricing are subject to change without notice.</span>
+                </p>
+                <p data-i18n="footer.copyright">&copy; 2026 Bonvita (Canada) Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = imageSrc;
+            lightbox.classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+    </script>
+
+    <!-- Dynamic Announcement / Sale Pop-up Modal -->
+    <div id="promo-popup-modal" class="modal" hidden>
+        <div class="modal-backdrop" onclick="closePromoPopup()"></div>
+        <div class="product-modal-panel">
+            <button class="modal-close" onclick="closePromoPopup()" aria-label="Close">&times;</button>
+            <div id="promo-popup-body">
+                <!-- Dynamic pop-up content renders here from data.json -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating News Teaser Button -->
+    <button id="promo-floating-widget" onclick="openPromoPopup()" aria-label="Open News Update" hidden>
+    <span class="widget-icon">📢</span>
+    <span id="widget-text" class="widget-text">Latest Update</span>
+    </button>
+
+</body>
+</html>
