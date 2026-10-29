@@ -3,8 +3,8 @@ const translations = {
   en: {
     "meta.title": "Bonvita Canada - Home Solutions",
     "topbar.announcement": "Online ordering is coming soon — contact our team to set up a dealer account.",
-    "topbar.call": "Call:",
-    "topbar.email": "Email us",
+    "topbar.call": "(514) 588-5438",
+    "topbar.email": "info@bonvitasolution.com",
     "nav.menu": "Open menu",
     "nav.home": "Home",
     "nav.finishes": "Products",
@@ -185,8 +185,8 @@ const translations = {
       
     "footer.tagline": "Wholesale cabinetry, countertops, sinks and hardware.",
     "footer.explore": "Explore",
-    "footer.phone": "📞 Phone: add number",
-    "footer.email": "✉ Email: add address",
+    "footer.phone": "📞 Phone: (514) 588-5438",
+    "footer.email": "✉ Email: info@bonvitasolution.com",
     "footer.country": "Canada",
     "footer.copyright": "© 2026 Bonvita (Canada) Ltd. All rights reserved.",
 
@@ -197,8 +197,8 @@ const translations = {
   fr: {
     "meta.title": "Bonvita Canada - Maison Solutions",
     "topbar.announcement": "La commande en ligne arrive bientôt — contactez notre équipe pour ouvrir un compte revendeur.",
-    "topbar.call": "Appeler :",
-    "topbar.email": "Nous écrire",
+    "topbar.call": "(514) 588-5438",
+    "topbar.email": "info@bonvitasolution.com",
     "nav.menu": "Ouvrir le menu",
     "nav.home": "Accueil",
     "nav.finishes": "Produits",
@@ -379,13 +379,13 @@ const translations = {
 
     "footer.tagline": "Armoires, comptoirs, éviers et quincaillerie en gros.",
     "footer.explore": "Explorer",
-    "footer.phone": "📞 Téléphone : ajouter le numéro",
-    "footer.email": "✉ Courriel : ajouter l'adresse",
+    "footer.phone": "📞 Téléphone : (514) 588-5438",
+    "footer.email": "✉ Courriel : info@bonvitasolution.com",
     "footer.country": "Canada",
     "footer.copyright": "© 2026 Bonvita (Canada) Ltée. Tous droits réservés.",
 
     "disclaimer.title": "Avis de non-responsabilité",
-    "disclaimer.text": "Les spécifications des produits, les finitions et les prix peuvent être modifiés sans préavis. Les images présentées sur ce site sont fournies à titre indicatif seulement et peuvent ne pas refléter l'apparence exacte du produit fini. Veuillez confirmer les spécifications, la disponibilité et les prix actuels auprès de votre représentant des ventes Bonvita avant de passer une commande."
+    "disclaimer.text": "Les spécifications des produits, les finitions et les prix peuvent être modifiés sans préavis. Les images présentées sur ce site sont fournies à titre indicatif only et peuvent ne pas refléter l'apparence exacte du produit fini. Veuillez confirmer les spécifications, la disponibilité et les prix actuels auprès de votre représentant des ventes Bonvita avant de passer une commande."
   },
   
 };
